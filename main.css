@@ -1,0 +1,322 @@
+            button:hover{
+                background-color: lightgrey;
+                transition: 0.3s;
+            }
+            button:active{
+                opacity: 0.2;
+                transition: 0.3s;
+            }
+            .videoprew{
+                z-index: 50;
+            }
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+                display: inline-block;
+                font-family: roboto,arial;
+                font-size: small;
+            }
+            .thumnail{
+                width: 100%;
+                display: block;
+                border-radius: 10px;
+            }
+            .thumb{
+                position: relative;
+            }
+            .time{
+                position: absolute;
+                color: white;
+                background-color: black;
+                bottom: 3px;
+                right: 3px;
+            }
+            .captions{
+                display: inline-block;
+                font-weight: bold;
+            }
+            .author{
+                color: rgb(96, 96, 96);
+                display: block;
+            }
+            .count{
+                display: block;
+                color: rgb(96, 96, 96);
+                display: inline-block;
+            }
+            .videoprew{
+                display: grid;
+                column-gap: 16px;
+                row-gap: 40px;
+            } 
+            @media (max-width: 750px){
+                .videoprew{
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            @media (min-width: 751px) and (max-width: 999px){
+                .videoprew{
+                    grid-template-columns: 1fr 1fr 1fr ;
+                }
+            }    
+            @media (min-width: 1000px){
+                .videoprew{
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+            }
+            .container{
+                width: 100%;
+                display: inline-block;
+            }
+
+            
+            .profile1{
+                max-width: 40px;
+                border-radius: 25px;
+                vertical-align: top;
+
+            }
+            .incont{
+                display: inline-block;
+                max-width: 100%;
+            }
+            .descont{
+                display: grid;
+                grid-template-columns: 40px 1fr;   
+            }
+            .header{
+                height: 50px;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                background-color: white;
+                align-items: center;
+                z-index: 100;
+            }
+            .leftheader{
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+                flex-shrink: 0;
+            }
+            .rightheader{
+                width: 200px;
+                justify-content:end;
+                vertical-align: top;
+                display: flex;
+                justify-content: center;
+                flex-shrink: 0;
+                align-items: center;
+            }
+            .icon1{
+                width: 25px;
+                margin-left: 25px;
+                margin-right: 25px;
+            }
+            .icon2{
+                width: 110px;
+            }
+            .icon3{
+                height: 43px;
+                width: 66px;
+                border-top-right-radius: 19px;
+                border-bottom-right-radius: 19px;
+                border-style: solid;
+                border-width: 1px;
+                border-left: none;
+            }
+            .icon31{
+                height: 33px;  
+            }
+            .icon4{
+                height: 45px;
+                width: 45px;
+                border-radius: 24px;
+                border: none;
+                margin-left: 10px;
+            }
+            .icon41{
+                height: 28px;}
+            .icon5{
+                vertical-align: top;
+                width: 28px;
+            }
+            .icon6{
+                padding-left: 18px;
+                padding-right: 18px;
+                background-color: white;
+                color: #065fd4;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                font-weight: bold;
+                font-family: roboto;
+                border-radius: 10px;
+
+            }
+            .icon7{
+                vertical-align: top;
+                height: 40px;
+                border-radius: 22px;
+            }
+
+            body{
+                padding-bottom: 1000px;
+                padding-top: 70px;
+                padding-left: 74px;
+            }
+            .middleheader{
+                margin-top: 3px;
+                display: flex;
+                flex-direction: row;
+                width: 600px;
+                align-items: center;
+                justify-content: center;
+            }
+            .searchbar{
+                padding-left: 20px;
+                font-size: 16px;
+                display: flex;
+                flex: 1;
+                border-right: none;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                height: 39.5px;
+                border-style: solid;
+                border-width: 1px;
+                cursor: text;
+            }
+            .ricon3{
+                position: relative;
+            }
+            .rside{
+                font-family: roboto;
+                font-size: 12px;
+                position: absolute;
+                color: white;
+                background-color: grey;
+                top: 55px;
+                right: 7px;
+                border-radius: 2px;
+                opacity: 0;
+            }
+            .ricon3:hover .rside{
+                opacity: 1;
+                transition: 0.4s;
+            }
+            .sidebox{
+                left: 0px;
+                top: 68px;
+                background-color: white;
+                bottom: 0px;
+                width: 72px;
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 12px;
+                font-family: roboto,Arial, Helvetica, sans-serif;
+                font-size: 10px;
+            }
+            .icons1{
+                width: 20px;
+                margin-bottom: 5px;
+            }
+            .icons2{
+                width: 22px;
+                margin-bottom: 5px;
+            }
+            .icons3{
+                width: 25px;
+                margin-bottom: 5px;
+            }
+            .icons4{
+                width: 25px;
+                margin-bottom: 5px;
+            }
+            .icons5{
+                width: 25px;
+                margin-bottom: 5px;
+            }
+            .icons6{
+                width: 20px;
+                margin-bottom: 5px;
+            }
+            .s1{
+                padding-top: 10px;
+                padding-bottom: 10px; 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            .s2{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            .s3{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            .s4{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            .s5{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            .s6{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            .homecls{
+                display: flex;
+                flex-direction: column;
+            }
+            .ricon4{
+                position: relative;
+            }
+            .mic{
+                font-size: 12px;
+                border-radius: 5px;
+                position: absolute;
+                color: white;
+                background-color: grey;
+                top: 48px;
+                left: 25px;
+                opacity: 0;
+            }
+            .ricon4:hover .mic{
+                opacity: 1;
+                transition: 0.6s;
+            }
+            
